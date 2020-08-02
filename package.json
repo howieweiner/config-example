@@ -1,0 +1,19 @@
+{
+  "name": "config-example",
+  "version": "1.0.0",
+  "description": "Example Express app with.env and config",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config .",
+    "start:dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
